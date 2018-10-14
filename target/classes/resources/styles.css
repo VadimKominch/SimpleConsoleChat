@@ -1,0 +1,68 @@
+* {
+    margin: auto;
+    padding: 0px;
+}
+ 
+html, body {
+    width:90%;
+    height:90%;
+    background: #eeeeda;
+}
+ 
+ .tabs{
+	 
+ }
+ 
+.panel {
+    border: 1px solid grey;
+    border-radius: 5px;
+	box-shadow: inset 0 0 1px #00568c;
+    width:100%;
+}
+ 
+.message-area {
+    height: 70%;
+    resize: none;
+    box-sizing: border-box;
+	font-size:17px;
+}
+ 
+.input-area {
+    background: #eeeeda;
+    box-shadow: inset 0 0 1px #00568c;
+}
+ 
+.input-area input {
+    margin: 0.5em 0.5em 0.5em 0.5em;
+	font-size:15px;
+}
+ 
+.text-field {
+    border: 1px solid grey;
+    padding: 0.5em;
+    box-shadow: 0 0 5px #00568c;
+	height:30px;
+}
+ 
+.button {
+  width:110px;
+  height:50px;
+  background-color:#10578F;
+  border:2px solid #FFFFFF;
+  border-radius:10px;
+  color:#FFFFFF;
+  font-size:17px;
+}
+ 
+ 
+h1 {
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 5px;
+}
+ 
+ 
+#messageInput {
+    min-width: 70%;
+    max-width: 80%;
+}
